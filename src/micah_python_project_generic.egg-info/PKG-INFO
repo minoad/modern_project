@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: micah-python-project-generic
+Version: 0.1
+Author: Micah Norman
+Author-email: Micah Norman <minoad@gmail.com>
+License: MIT
+Project-URL: Source, https://github.com/minoad/modern_project
+Platform: linux
+Platform: unix
+Platform: osx
+Platform: cygwin
+Platform: win32
+Requires-Python: >=3.11

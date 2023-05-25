@@ -1,0 +1,6 @@
+pytest
+httpx
+fire
+pytest
+pipx
+hatch

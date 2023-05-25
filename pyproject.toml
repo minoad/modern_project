@@ -1,0 +1,43 @@
+[project]
+name = "micah_python_project_generic"
+version = "0.1"
+description = ""
+authors = [{ name = "Micah Norman", email = "minoad@gmail.com" }]
+dependencies = ["pytest", "httpx", "fire", "pytest", "pipx", "hatch"]
+# dynamic = ["readme"]
+
+[project.scripts]
+cq_command = "command:main"
+
+# [build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Source = "https://github.com/minoad/modern_project"
+
+[tool.pytest.ini_options]
+addopts = "--cov=command"
+testpaths = [
+    "test",
+    "src/tests",
+]
+
+[tool.mypy]
+mypy_path = "src"
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
+pretty = true

@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/command/__init__.py
+src/command/command.py
+src/micah_python_project_generic.egg-info/PKG-INFO
+src/micah_python_project_generic.egg-info/SOURCES.txt
+src/micah_python_project_generic.egg-info/dependency_links.txt
+src/micah_python_project_generic.egg-info/entry_points.txt
+src/micah_python_project_generic.egg-info/not-zip-safe
+src/micah_python_project_generic.egg-info/requires.txt
+src/micah_python_project_generic.egg-info/top_level.txt
